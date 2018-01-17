@@ -1,10 +1,14 @@
-interface Numbers {
-  a: number,
-  b: string
-}
+// 1 - Basic
+import './1-basic'
 
-const add = (opts: Numbers): number => {
-  return opts.a + opts.b
-}
+// 2 - Return Value
+//import './2-return'
 
-console.log(add({ a: 2, b: 4 }))
+// 3 - Interface
+//import './3-interface'
+
+// 4 - Class
+//import './4-class'
+
+// 5 - Type Library
+//import './5-type-libs'
